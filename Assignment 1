@@ -1,0 +1,39 @@
+std={}
+n=int(input("enter no of employees:"))
+for i in range(1,n+1):
+    l=[]
+    name=input("enter name of the employee:") 
+    l.append(name)
+    designation=input("enter desig of the employee:")
+    l.append(designation)
+    empsal=int(input("enter salary of the employee:"))
+    l.append(empsal)
+    empphno=int(input("enter employee phno:"))
+    l.append(empphno)
+    std[i]=l
+print(std)
+output
+
+enter no of employees:3
+enter name of the employee:sasi
+enter desig of the employee:salesman
+enter salary of the employee:15000
+enter employee phno:345677654
+enter name of the employee:susi
+enter desig of the employee:manager
+enter salary of the employee:200000
+enter employee phno:34567654
+enter name of the employee:bhuvana
+enter desig of the employee:ass manager
+enter salary of the employee:150000
+enter employee phno:876544567
+{1: ['sasi', 'salesman', 15000, 345677654], 2: ['susi', 'manager', 200000, 34567654], 3: ['bhuvana', 'ass manager', 150000, 876544567]}
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact
